@@ -1,9 +1,11 @@
 package com.example.ra;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,9 +17,10 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.ktx.Firebase;
 
 public class MainActivity3 extends AppCompatActivity {
-    Button b1;
+    Button b1,b2;
     FirebaseAuth fa;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,9 +35,11 @@ public class MainActivity3 extends AppCompatActivity {
                 Intent m = new Intent(MainActivity3.this,MainActivity.class);
                 startActivity(m);
                 finish();
+                Toast.makeText(MainActivity3.this, "Thanks For Your Response", Toast.LENGTH_SHORT).show();
 
             }
         });
+
 
     }
 }

@@ -12,12 +12,12 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="100dp"
         android:background="#B8C19292"
         android:ems="10"
         android:hint="Enter Your Email"
@@ -28,12 +28,12 @@
 
     <EditText
         android:id="@+id/editTextText2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="263dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="164dp"
         android:background="#B8C19292"
         android:ems="10"
         android:hint="Password"
@@ -46,8 +46,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="518dp"
-        android:layout_marginEnd="243dp"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="189dp"
         android:visibility="invisible"
         tools:visibility="invisible" />
 
@@ -57,8 +57,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="219dp"
-        android:layout_marginBottom="854dp"
+        android:layout_marginStart="282dp"
+        android:layout_marginBottom="340dp"
         android:background="#948D8D"
         android:text="Log In" />
 
@@ -68,8 +68,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="577dp"
-        android:layout_marginEnd="83dp"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="299dp"
         android:background="#948D8D"
         android:text="Register" />
 

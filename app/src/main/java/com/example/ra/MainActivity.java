@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                                 {
                                     p1.setVisibility(View.INVISIBLE);
                                     Toast.makeText(MainActivity.this, "Logged In Successfully", Toast.LENGTH_SHORT).show();
-                                    Intent l = new Intent(MainActivity.this,MainActivity3.class);
+                                    Intent l = new Intent(MainActivity.this,MainActivity4.class);
                                     startActivity(l);
                                     finish();
                                 }
